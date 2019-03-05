@@ -11,13 +11,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/api': {  //使用"/api"来代替"http://f.apiplus.c"
-        target: 'http://f.apiplus.cn', //源地址
-        changeOrigin: true, //改变源
-        pathRewrite: {
-          '^/api': 'http://f.apiplus.cn' //路径重写
-        }
-      }
+      // '/api': {  //使用"/api"来代替"http://f.apiplus.c"
+      //   target: 'https://m.test.7710mall.com', //源地址
+      //   changeOrigin: true, //改变源
+      //   pathRewrite: {
+      //     '^/api': '/api' //路径重写
+      //   }
+      // }
     },
 
     // Various Dev Server settings

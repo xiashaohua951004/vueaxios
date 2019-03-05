@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-
-Vue.use(Router)
+Vue.use(Router);
+const HelloWorld = resolve => require(['@/components/HelloWorld'], resolve);
 
 export default new Router({
   routes: [

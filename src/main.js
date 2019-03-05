@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import api from './request/api' // 导入api接口
+import api from './request/' // 导入api接口
+
 
 Vue.config.productionTip = false;
 Vue.prototype.$api = api; // 将api挂载到vue的原型上
